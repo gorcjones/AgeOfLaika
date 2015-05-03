@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E5C61E41AF6DB8B00C5C218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C61E31AF6DB8B00C5C218 /* AppDelegate.swift */; };
+		2E5C61E61AF6DB8B00C5C218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C61E51AF6DB8B00C5C218 /* ViewController.swift */; };
+		2E5C61E91AF6DB8B00C5C218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5C61E71AF6DB8B00C5C218 /* Main.storyboard */; };
+		2E5C61EB1AF6DB8B00C5C218 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5C61EA1AF6DB8B00C5C218 /* Images.xcassets */; };
+		2E5C61EE1AF6DB8B00C5C218 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5C61EC1AF6DB8B00C5C218 /* LaunchScreen.xib */; };
+		2E5C61FA1AF6DB8B00C5C218 /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C61F91AF6DB8B00C5C218 /* AgeOfLaikaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E5C61F41AF6DB8B00C5C218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E5C61D61AF6DB8B00C5C218 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E5C61DD1AF6DB8B00C5C218;
+			remoteInfo = AgeOfLaika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E5C61DE1AF6DB8B00C5C218 /* AgeOfLaika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeOfLaika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5C61E21AF6DB8B00C5C218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5C61E31AF6DB8B00C5C218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E5C61E51AF6DB8B00C5C218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E5C61E81AF6DB8B00C5C218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E5C61EA1AF6DB8B00C5C218 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E5C61ED1AF6DB8B00C5C218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2E5C61F31AF6DB8B00C5C218 /* AgeOfLaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfLaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5C61F81AF6DB8B00C5C218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5C61F91AF6DB8B00C5C218 /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5C61DB1AF6DB8B00C5C218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5C61F01AF6DB8B00C5C218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5C61D51AF6DB8B00C5C218 = {
+			isa = PBXGroup;
+			children = (
+				2E5C61E01AF6DB8B00C5C218 /* AgeOfLaika */,
+				2E5C61F61AF6DB8B00C5C218 /* AgeOfLaikaTests */,
+				2E5C61DF1AF6DB8B00C5C218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E5C61DF1AF6DB8B00C5C218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C61DE1AF6DB8B00C5C218 /* AgeOfLaika.app */,
+				2E5C61F31AF6DB8B00C5C218 /* AgeOfLaikaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E5C61E01AF6DB8B00C5C218 /* AgeOfLaika */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C61E31AF6DB8B00C5C218 /* AppDelegate.swift */,
+				2E5C61E51AF6DB8B00C5C218 /* ViewController.swift */,
+				2E5C61E71AF6DB8B00C5C218 /* Main.storyboard */,
+				2E5C61EA1AF6DB8B00C5C218 /* Images.xcassets */,
+				2E5C61EC1AF6DB8B00C5C218 /* LaunchScreen.xib */,
+				2E5C61E11AF6DB8B00C5C218 /* Supporting Files */,
+			);
+			path = AgeOfLaika;
+			sourceTree = "<group>";
+		};
+		2E5C61E11AF6DB8B00C5C218 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C61E21AF6DB8B00C5C218 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E5C61F61AF6DB8B00C5C218 /* AgeOfLaikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C61F91AF6DB8B00C5C218 /* AgeOfLaikaTests.swift */,
+				2E5C61F71AF6DB8B00C5C218 /* Supporting Files */,
+			);
+			path = AgeOfLaikaTests;
+			sourceTree = "<group>";
+		};
+		2E5C61F71AF6DB8B00C5C218 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5C61F81AF6DB8B00C5C218 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E5C61DD1AF6DB8B00C5C218 /* AgeOfLaika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5C61FD1AF6DB8B00C5C218 /* Build configuration list for PBXNativeTarget "AgeOfLaika" */;
+			buildPhases = (
+				2E5C61DA1AF6DB8B00C5C218 /* Sources */,
+				2E5C61DB1AF6DB8B00C5C218 /* Frameworks */,
+				2E5C61DC1AF6DB8B00C5C218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeOfLaika;
+			productName = AgeOfLaika;
+			productReference = 2E5C61DE1AF6DB8B00C5C218 /* AgeOfLaika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E5C61F21AF6DB8B00C5C218 /* AgeOfLaikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5C62001AF6DB8B00C5C218 /* Build configuration list for PBXNativeTarget "AgeOfLaikaTests" */;
+			buildPhases = (
+				2E5C61EF1AF6DB8B00C5C218 /* Sources */,
+				2E5C61F01AF6DB8B00C5C218 /* Frameworks */,
+				2E5C61F11AF6DB8B00C5C218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E5C61F51AF6DB8B00C5C218 /* PBXTargetDependency */,
+			);
+			name = AgeOfLaikaTests;
+			productName = AgeOfLaikaTests;
+			productReference = 2E5C61F31AF6DB8B00C5C218 /* AgeOfLaikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E5C61D61AF6DB8B00C5C218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ryan Jones";
+				TargetAttributes = {
+					2E5C61DD1AF6DB8B00C5C218 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2E5C61F21AF6DB8B00C5C218 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 2E5C61DD1AF6DB8B00C5C218;
+					};
+				};
+			};
+			buildConfigurationList = 2E5C61D91AF6DB8B00C5C218 /* Build configuration list for PBXProject "AgeOfLaika" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E5C61D51AF6DB8B00C5C218;
+			productRefGroup = 2E5C61DF1AF6DB8B00C5C218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E5C61DD1AF6DB8B00C5C218 /* AgeOfLaika */,
+				2E5C61F21AF6DB8B00C5C218 /* AgeOfLaikaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E5C61DC1AF6DB8B00C5C218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5C61E91AF6DB8B00C5C218 /* Main.storyboard in Resources */,
+				2E5C61EE1AF6DB8B00C5C218 /* LaunchScreen.xib in Resources */,
+				2E5C61EB1AF6DB8B00C5C218 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5C61F11AF6DB8B00C5C218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E5C61DA1AF6DB8B00C5C218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5C61E61AF6DB8B00C5C218 /* ViewController.swift in Sources */,
+				2E5C61E41AF6DB8B00C5C218 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5C61EF1AF6DB8B00C5C218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5C61FA1AF6DB8B00C5C218 /* AgeOfLaikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E5C61F51AF6DB8B00C5C218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E5C61DD1AF6DB8B00C5C218 /* AgeOfLaika */;
+			targetProxy = 2E5C61F41AF6DB8B00C5C218 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E5C61E71AF6DB8B00C5C218 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5C61E81AF6DB8B00C5C218 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E5C61EC1AF6DB8B00C5C218 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5C61ED1AF6DB8B00C5C218 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E5C61FB1AF6DB8B00C5C218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E5C61FC1AF6DB8B00C5C218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E5C61FE1AF6DB8B00C5C218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgeOfLaika/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E5C61FF1AF6DB8B00C5C218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgeOfLaika/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E5C62011AF6DB8B00C5C218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgeOfLaikaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeOfLaika.app/AgeOfLaika";
+			};
+			name = Debug;
+		};
+		2E5C62021AF6DB8B00C5C218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgeOfLaikaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgeOfLaika.app/AgeOfLaika";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5C61D91AF6DB8B00C5C218 /* Build configuration list for PBXProject "AgeOfLaika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5C61FB1AF6DB8B00C5C218 /* Debug */,
+				2E5C61FC1AF6DB8B00C5C218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5C61FD1AF6DB8B00C5C218 /* Build configuration list for PBXNativeTarget "AgeOfLaika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5C61FE1AF6DB8B00C5C218 /* Debug */,
+				2E5C61FF1AF6DB8B00C5C218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E5C62001AF6DB8B00C5C218 /* Build configuration list for PBXNativeTarget "AgeOfLaikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5C62011AF6DB8B00C5C218 /* Debug */,
+				2E5C62021AF6DB8B00C5C218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E5C61D61AF6DB8B00C5C218 /* Project object */;
+}
